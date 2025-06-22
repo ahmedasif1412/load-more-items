@@ -44,7 +44,7 @@ const LoadMoreItems = () => {
   if (loading) {
     return (
       <center>
-        <h1>Please, Wait the Fuck up!</h1>
+        <h1>Please Wait!</h1>
       </center>
     );
   }
@@ -77,9 +77,7 @@ const LoadMoreItems = () => {
         </button>
         {disableButton && (
           <center>
-            <p className="end-message">
-              You have reached the end. What the Fuck do you want?
-            </p>
+            <p className="end-message">Looks like you have reached the end.</p>
           </center>
         )}
       </center>
