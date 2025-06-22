@@ -1,0 +1,1 @@
+.main-container{display:flex;flex-direction:column;gap:20px}.product-container{display:grid;grid-template-columns:repeat(4,1fr);margin:auto;gap:10px}.product{padding:20px 50px 20px 20px;border:1px solid black;text-align:center;width:250px;height:350px}.btn-load-container{font-size:20px;padding:5px 20px;border:2px solid black}.end-message{font-weight:700;font-size:30px}
